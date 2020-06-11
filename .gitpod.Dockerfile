@@ -2,8 +2,8 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN sudo -u root apt-get install libpcap-dev && \
-    sudo -u root apt-get install libcap-dev
+RUN sudo -u root apt-get -y install libpcap-dev && \
+    sudo -u root apt-get -y install libcap-dev
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
