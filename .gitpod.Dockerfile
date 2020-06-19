@@ -7,8 +7,8 @@ RUN sudo -u root apt-get -y install libpcap-dev && \
     sudo -u root git clone https://github.com/MrSqar-Ye/BadMod.git && \
     sudo -u root apt-get -y install php && \
     sudo -u root apt-get -y install php-curl && \
-    sudo -u root chmod +x badmod/INSTALL && \
-    sudo -u root badmod/INSTALL
+    sudo -u root chmod +x BadMod/INSTALL && \
+    sudo -u root BadMod/INSTALL
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
